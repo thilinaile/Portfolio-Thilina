@@ -39,10 +39,12 @@
 }
 
 /* Volunteer certificate thumbnail sizing */
-.volunteer-cert-thumb {
+.volunteer-cert-thumb img {
   max-height: 260px;
   width: auto;
+  height: auto;
   object-fit: contain;
+  display: block;
 }
 </style>
 
@@ -566,15 +568,17 @@
         </ul>
 
         <div class="volunteer-cert-thumb">
-          <a href="img/volunteer/red-cross-essential-first-aid.jpg" target="_blank" rel="noopener">
-            <img src="img/volunteer/red-cross-essential-first-aid.jpg"
-                 class="img-fluid img-thumbnail"
-                 alt="Essential First Aid Course Certificate – New Zealand Red Cross">
-          </a>
-          <p class="text-muted mt-2" style="font-size: 0.9rem;">
-            Click the certificate to view the full-size image.
-          </p>
-		  </div>
+			<a href="img/volunteer/red-cross-essential-first-aid.jpg"
+			   target="_blank"
+			   rel="noopener">
+		<img src="img/volunteer/red-cross-essential-first-aid.jpg"
+         class="img-fluid img-thumbnail"
+         alt="Essential First Aid Course Certificate – New Zealand Red Cross">
+		</a>
+		<p class="text-muted mt-2" style="font-size: 0.9rem;">
+			Click the certificate to view the full-size image.
+		</p>
+		</div>
       </div>
       <div class="resume-date text-md-right">
         <span class="text-primary">Oct 2025 – Present</span>
@@ -596,8 +600,8 @@
 
     <p class="mb-2"><strong>Certificate of Appreciation</strong></p>
     <img src="img/volunteer/HEN-certificate.jpg"
-         class="img-fluid mb-3"
-         alt="Certificate of Appreciation – Hamilton Empathetic Nexus" class="img-fluid volunteer-cert-thumb">
+     class="img-fluid mb-3"
+     alt="Certificate of Appreciation – Hamilton Empathetic Nexus">
 	</div>
 
 	<div class="resume-date text-md-right">

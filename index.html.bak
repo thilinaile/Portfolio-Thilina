@@ -39,10 +39,12 @@
 }
 
 /* Volunteer certificate thumbnail sizing */
-.volunteer-cert-thumb {
+.volunteer-cert-thumb img {
   max-height: 260px;
   width: auto;
+  height: auto;
   object-fit: contain;
+  display: block;
 }
 </style>
 
@@ -548,6 +550,35 @@
           <li>Sorted, quality-checked, and prepared donated goods for sale.</li>
           <li>Supported visual merchandising and maintained tidy shop-floor layouts.</li>
         </ul>
+		
+		<!-- First Aid Training -->
+		<hr class="my-4">
+
+        <p class="mb-2"><strong>Training &amp; Certification</strong></p>
+
+        <p class="mb-2">
+          <strong>Essential First Aid Course</strong> – New Zealand Red Cross
+        </p>
+
+        <ul class="mb-3">
+          <li>Completed August 2026</li>
+          <li>Met the requirements of the Foundation First Aid Certificate</li>
+          <li>Met the CPR requirements of the New Zealand Resuscitation Council</li>
+          <li>Meets NZQA Unit Standards 6402 and 6401</li>
+        </ul>
+
+        <div class="volunteer-cert-thumb">
+			<a href="img/volunteer/red-cross-essential-first-aid.jpg"
+			   target="_blank"
+			   rel="noopener">
+		<img src="img/volunteer/red-cross-essential-first-aid.jpg"
+         class="img-fluid img-thumbnail"
+         alt="Essential First Aid Course Certificate – New Zealand Red Cross">
+		</a>
+		<p class="text-muted mt-2" style="font-size: 0.9rem;">
+			Click the certificate to view the full-size image.
+		</p>
+		</div>
       </div>
       <div class="resume-date text-md-right">
         <span class="text-primary">Oct 2025 – Present</span>
